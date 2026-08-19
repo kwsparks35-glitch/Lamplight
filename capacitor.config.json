@@ -1,0 +1,15 @@
+{
+  "appId": "com.canonseries.lamplight",
+  "appName": "Lamplight",
+  "webDir": "www",
+  "backgroundColor": "#0B1F18",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

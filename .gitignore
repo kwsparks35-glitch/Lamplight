@@ -1,0 +1,47 @@
+# Dependencies and package-manager logs
+node_modules/
+**/node_modules/
+*.log
+npm-debug.log*
+
+# Generated build output (source wrappers remain tracked)
+dist/
+electron/dist/
+coverage/
+
+# Capacitor-generated build products and local machine configuration
+android/.gradle/
+android/local.properties
+android/key.properties
+android/**/build/
+ios/App/Pods/
+ios/DerivedData/
+ios/App/App/public/
+**/xcuserdata/
+*.xcuserstate
+
+# Signing credentials must never be committed
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.der
+*.key
+*.pem
+*.p8
+.secrets/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

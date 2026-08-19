@@ -1,0 +1,57 @@
+{
+  "name": "lamplight",
+  "version": "1.2.1",
+  "description": "A private, offline-first Scripture memory game built around whole-passage retrieval practice.",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Kenneth W. Sparks"
+  },
+  "packageManager": "npm@11.9.0",
+  "engines": {
+    "node": ">=22.14.0 <25",
+    "npm": ">=11 <13"
+  },
+  "workspaces": [
+    "electron"
+  ],
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "cap:add:android": "cap add android",
+    "cap:add:ios": "cap add ios",
+    "sync": "cap sync",
+    "copy": "cap copy",
+    "ios": "cap open ios",
+    "android": "cap open android",
+    "electron:start": "npm run start --workspace=lamplight-desktop",
+    "electron:package": "npm run package --workspace=lamplight-desktop",
+    "electron:package:appimage": "npm run package:appimage --workspace=lamplight-desktop",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "qa": "node scripts/qa.mjs",
+    "integrity": "node scripts/generate-integrity.mjs",
+    "integrity:update": "node scripts/generate-integrity.mjs --write",
+    "release:source": "node scripts/build-release.mjs",
+    "release": "node scripts/build-release.mjs",
+    "validate:platform": "node --check electron/main.js && node -e \"const fs=require('node:fs');['package.json','capacitor.config.json','electron/package.json','www/manifest.webmanifest'].forEach(f=>JSON.parse(fs.readFileSync(f,'utf8')));console.log('Platform JavaScript and JSON are valid.')\""
+  },
+  "dependencies": {
+    "@capacitor/android": "8.4.1",
+    "@capacitor/app": "8.1.1",
+    "@capacitor/core": "8.4.1",
+    "@capacitor/ios": "8.4.1",
+    "@capacitor/preferences": "8.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwsparks35-glitch/Lamplight.git"
+  },
+  "homepage": "https://github.com/kwsparks35-glitch/Lamplight",
+  "bugs": {
+    "url": "https://github.com/kwsparks35-glitch/Lamplight/issues",
+    "email": "Canon.Series.Packets@gmail.com"
+  }
+}
