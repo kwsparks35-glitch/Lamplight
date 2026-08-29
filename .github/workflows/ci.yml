@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Use npm 11 (project engines require >=11, runner ships 10)
+        run: npm install -g npm@11
       - name: Install locked dependencies without package install scripts
         run: npm ci --ignore-scripts
       - name: Validate platform source
