@@ -1,0 +1,52 @@
+name: Feature proposal
+description: Propose a focused improvement consistent with Lamplight's learning and privacy commitments.
+title: "[Proposal]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: learner_need
+    attributes:
+      label: Learner need
+      description: Describe the problem or barrier, not only a preferred implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired learner-facing outcome
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Include alternatives considered and why this is proportionate.
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Areas that may change
+      options:
+        - label: Mastery or review scheduling
+        - label: Stored data, schema, migration, import, or export
+        - label: Accessibility or reduced motion
+        - label: Privacy, permissions, or network activity
+        - label: Scripture text, reference, translation, topic, or doctrine-sensitive copy
+        - label: Native/store packaging
+        - label: Audio, lyrics, or other rights-managed content
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and validation
+      description: Link authoritative evidence when making a learning, accessibility, platform, or policy claim and describe how success would be tested.
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Product commitments
+      options:
+        - label: The proposal keeps games from certifying mastery.
+          required: true
+        - label: The proposal does not add ads, tracking, manipulative monetization, or hidden study-data transmission.
+          required: true

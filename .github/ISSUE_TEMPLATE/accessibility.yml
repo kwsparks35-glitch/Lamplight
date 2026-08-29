@@ -1,0 +1,36 @@
+name: Accessibility report
+description: Report a barrier involving keyboard, screen reader, contrast, text size, motion, touch, or comprehension.
+title: "[Accessibility]: "
+labels:
+  - accessibility
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Platform, device, browser/runtime, and assistive technology
+      placeholder: iOS 26, iPhone, VoiceOver; or Ubuntu, Firefox, keyboard only
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Barrier and impact
+      description: Explain what task could not be completed or understood.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected accessible behavior
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction or relevant standard

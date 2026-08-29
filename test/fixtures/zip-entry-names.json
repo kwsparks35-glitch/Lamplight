@@ -1,0 +1,17 @@
+{
+  "safe": [
+    "lamplight-1.2.0/README.md",
+    "lamplight-1.2.0/www/index.html",
+    "lamplight-1.2.0/www/icons/icon-192.png"
+  ],
+  "unsafe": [
+    "../escape.txt",
+    "/absolute.txt",
+    "C:/windows.txt",
+    "folder\\windows-separator.txt",
+    "folder/./ambiguous.txt",
+    "folder//empty-segment.txt",
+    "folder/../escape.txt",
+    "nul\u0000name.txt"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "lamplight-desktop",
+  "version": "1.2.1",
+  "description": "The Linux desktop wrapper for Lamplight Scripture Memory.",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Kenneth W. Sparks"
+  },
+  "main": "main.js",
+  "engines": {
+    "node": ">=22.14.0 <25",
+    "npm": ">=11 <13"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder --linux AppImage deb snap",
+    "package:appimage": "electron-builder --linux AppImage",
+    "package:win": "electron-builder --win nsis portable",
+    "package:mac": "electron-builder --mac dmg",
+    "package:all": "electron-builder --linux AppImage deb snap --win nsis portable --mac dmg"
+  },
+  "devDependencies": {
+    "electron": "43.4.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.canonseries.lamplight",
+    "productName": "Lamplight",
+    "asar": true,
+    "compression": "maximum",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      {
+        "from": "../www",
+        "to": "www",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "linux": {
+      "category": "Education",
+      "icon": "../resources/icon.png",
+      "maintainer": "Kenneth W. Sparks",
+      "executableName": "lamplight",
+      "synopsis": "Private, offline-first Scripture memory",
+      "description": "Learn whole Scripture passages through retrieval practice, spaced review, and accessible games.",
+      "target": [
+        "AppImage",
+        "deb",
+        "snap"
+      ]
+    },
+    "artifactName": "Lamplight-${version}-${arch}.${ext}",
+    "deb": {
+      "priority": "optional"
+    },
+    "snap": {
+      "grade": "stable",
+      "confinement": "strict",
+      "plugs": [
+        "browser-support",
+        "desktop",
+        "desktop-legacy",
+        "gsettings",
+        "home",
+        "opengl",
+        "unity7",
+        "wayland",
+        "x11"
+      ]
+    },
+    "win": {
+      "icon": "../resources/icon.png",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "mac": {
+      "icon": "../resources/icon.png",
+      "category": "public.app-category.education",
+      "target": [
+        "dmg"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+name: Scripture or content correction
+description: Report a possible text, reference, topic, credit, or provenance problem.
+title: "[Content]: "
+labels:
+  - content
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Content type
+      options:
+        - Scripture text
+        - Scripture reference or range
+        - Starter passage
+        - Topic assignment
+        - In-app quotation or attribution
+        - License or provenance
+        - Store/documentation copy
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Exact app/file location
+      placeholder: Daily Review > Matthew 10:8 / docs/PEDAGOGY.md section 2
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current content
+      description: Quote only the minimum needed to identify the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction and rationale
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Authoritative source
+      description: Give an exact WEB edition/revision or primary policy/license source, not an unsourced paraphrase.
+    validations:
+      required: true

@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a reproducible Lamplight defect without personal study data.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Search existing issues first. Do not attach a study-backup file, credentials, or private correspondence. Report vulnerabilities through SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Use the About screen version, release tag, or full commit hash.
+      placeholder: 1.2.0 / abc1234
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Web browser
+        - Installed PWA
+        - iOS or iPadOS
+        - Android
+        - Linux AppImage
+        - Linux Debian package
+        - Linux Snap
+        - Electron development
+        - Other or unknown
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device and environment
+      description: OS version, browser/runtime version, device class, and assistive technology if relevant.
+      placeholder: Android 16, Chrome 140, phone, TalkBack off
+    validations:
+      required: true
+  - type: input
+    id: storage
+    attributes:
+      label: Storage status shown by Lamplight
+      placeholder: Device storage / Browser storage / Memory only / unknown
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Begin from a known screen and use numbered steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include exact visible error text. Redact personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: frequency
+    attributes:
+      label: Frequency and last known good version
+      placeholder: Every time; did not occur in 1.1.0
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed personal study data, credentials, and private correspondence.
+          required: true
+        - label: This is not a security vulnerability requiring private disclosure.
+          required: true

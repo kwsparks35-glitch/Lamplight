@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#16352A</color>
+    <color name="colorPrimaryDark">#0B1F18</color>
+    <color name="colorAccent">#C9A24B</color>
+    <color name="lamplight_background">#0B1F18</color>
+</resources>

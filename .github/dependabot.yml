@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    versioning-strategy: increase
+    groups:
+      capacitor:
+        patterns:
+          - "@capacitor/*"
+      electron-toolchain:
+        patterns:
+          - electron
+          - electron-builder
+    labels:
+      - dependencies
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lamplight</string>
+    <string name="title_activity_main">Lamplight</string>
+    <string name="package_name">com.canonseries.lamplight</string>
+    <string name="custom_url_scheme">com.canonseries.lamplight</string>
+</resources>

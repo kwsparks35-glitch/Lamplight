@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "generatedBy": "scripts/generate-integrity.mjs",
+  "files": [
+    {
+      "path": "resources/icon.png",
+      "mediaType": "image/png",
+      "bytes": 112699,
+      "sha256": "22d1a6572d8f7c3c3228fd9e241642156963b4ec82d05d8b75831ff282849cb9",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "resources/splash.png",
+      "mediaType": "image/png",
+      "bytes": 351489,
+      "sha256": "6c56fb8ad29eee898cdb79084e1b734170124114d181361df0bf19ab625968d5",
+      "width": 2732,
+      "height": 2732
+    },
+    {
+      "path": "src/assets/fonts/barlow-400.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 22196,
+      "sha256": "b0a8ad37ac45f5fb22ced461576db72e44e295107aad7a9c8a7a4bad728fd03b"
+    },
+    {
+      "path": "src/assets/fonts/barlow-600.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 22772,
+      "sha256": "4b52ddd4836b592df0e4832b8286956883cdc651b015126bdd18f184b7f90cc3"
+    },
+    {
+      "path": "src/assets/fonts/barlow-700.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 22788,
+      "sha256": "2d797dd8b35dcb3413e1af9d7052b3f4f8c341a147cdcb01f4f06af80db53289"
+    },
+    {
+      "path": "src/assets/fonts/fraunces-400-italic.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 22852,
+      "sha256": "475b154af19c6b4ef371db22078b5044a078ce2467e11ef22a7b87f77837caf3"
+    },
+    {
+      "path": "src/assets/fonts/fraunces-400.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 36620,
+      "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+    },
+    {
+      "path": "src/assets/fonts/fraunces-600.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 36620,
+      "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+    },
+    {
+      "path": "src/assets/fonts/fraunces-700.woff2",
+      "mediaType": "font/woff2",
+      "bytes": 36620,
+      "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+    },
+    {
+      "path": "src/icons/icon-180.png",
+      "mediaType": "image/png",
+      "bytes": 15034,
+      "sha256": "cfac9bc0c0ad7059be02d9963542f4cc62bd9e8097e31547ade4b273fbfc7630",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "src/icons/icon-192.png",
+      "mediaType": "image/png",
+      "bytes": 16231,
+      "sha256": "c13d978f6c9c5764658d12fdf64936082ef17d997ee0bec3c7e1992bec20c9c1",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "src/icons/icon-512.png",
+      "mediaType": "image/png",
+      "bytes": 57893,
+      "sha256": "b2605f8cacd751d055b9ba08dbd22fb4982e07c0ac44c95b09786b7c769db9a4",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "www/icons/icon-180.png",
+      "mediaType": "image/png",
+      "bytes": 15034,
+      "sha256": "cfac9bc0c0ad7059be02d9963542f4cc62bd9e8097e31547ade4b273fbfc7630",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "www/icons/icon-192.png",
+      "mediaType": "image/png",
+      "bytes": 16231,
+      "sha256": "c13d978f6c9c5764658d12fdf64936082ef17d997ee0bec3c7e1992bec20c9c1",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "www/icons/icon-512.png",
+      "mediaType": "image/png",
+      "bytes": 57893,
+      "sha256": "b2605f8cacd751d055b9ba08dbd22fb4982e07c0ac44c95b09786b7c769db9a4",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "android/app/src/main/res/drawable/splash.png",
+      "mediaType": "image/png",
+      "bytes": 53649,
+      "sha256": "a65b4145504eeb994e748772386341b52c397b013c54b15ffe40df48d67bca61",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "android/app/src/main/res/drawable-land-hdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 99070,
+      "sha256": "c098832d54925b26d92952ee487c57784bbc236fcda67aebde2dbb86730a323d",
+      "width": 800,
+      "height": 480
+    },
+    {
+      "path": "android/app/src/main/res/drawable-land-mdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 53649,
+      "sha256": "081b67fe07b47ba912924718f91229514f01e614c22ad54adc049ba397548d3e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "android/app/src/main/res/drawable-land-xhdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 182243,
+      "sha256": "4a46f17b3464aab299e91ba8b6930dad25b2947f54d8fb2134ff7a4b2049fc00",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "android/app/src/main/res/drawable-land-xxhdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 269010,
+      "sha256": "1cb0901bf68c37acf011bf5bf6ef9d665f6647cb2f4ad188568992d3debaf040",
+      "width": 1600,
+      "height": 960
+    },
+    {
+      "path": "android/app/src/main/res/drawable-land-xxxhdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 294912,
+      "sha256": "14af63e0b874697f1c9f189b7ce28cc01f195e86cafd8dddbc8144447f3a85c2",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "path": "android/app/src/main/res/drawable-port-hdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 98635,
+      "sha256": "36667f6d6863fa60deae682cc72f6f974ba497fcd8b36cc21ea2f4790f402e26",
+      "width": 480,
+      "height": 800
+    },
+    {
+      "path": "android/app/src/main/res/drawable-port-mdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 53715,
+      "sha256": "05592038e93299046f8143ed4516678ae0d4ef3f95187012ea55f8e08b93fc8b",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "path": "android/app/src/main/res/drawable-port-xhdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 181791,
+      "sha256": "ef21a0b2de87e27ea952dec6462530af5d3ec095cc3c1773e2645a8bed09b04a",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "path": "android/app/src/main/res/drawable-port-xxhdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 267878,
+      "sha256": "6b68b715ddab21db498ea19bcf227d06bace59db9151a2756a322f8a9ca60ff8",
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "path": "android/app/src/main/res/drawable-port-xxxhdpi/splash.png",
+      "mediaType": "image/png",
+      "bytes": 385246,
+      "sha256": "4a0ea7c624e571b72768188d4158c2414b79451a35832f4e9426143ab92fd42c",
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "path": "android/app/src/main/res/layout/activity_main.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 535,
+      "sha256": "5d770feb791313b947020cbfc57e5c733c556dac5e9e49261a1190e527073253"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 265,
+      "sha256": "9c3a7e0a6515c6e1a7ae834a9ae430311ebc3241f7b2e5e7f0460aa690709a7c"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 265,
+      "sha256": "9c3a7e0a6515c6e1a7ae834a9ae430311ebc3241f7b2e5e7f0460aa690709a7c"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "mediaType": "image/png",
+      "bytes": 18136,
+      "sha256": "eb1e53df338137a4e8ddac325eda12c0ddb5b16a1924c48b08e06fee9a25beef",
+      "width": 162,
+      "height": 162
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "mediaType": "image/png",
+      "bytes": 4975,
+      "sha256": "1db3ef53c47802165985c3bdf6bc50903fb3d79c6ee719daf6a5774eea1c98a3",
+      "width": 72,
+      "height": 72
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "mediaType": "image/png",
+      "bytes": 4975,
+      "sha256": "1db3ef53c47802165985c3bdf6bc50903fb3d79c6ee719daf6a5774eea1c98a3",
+      "width": 72,
+      "height": 72
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "mediaType": "image/png",
+      "bytes": 9550,
+      "sha256": "37072979911f8b9d180ef2fdc61748d9d52be4244fc202ba1feb65628e2127de",
+      "width": 108,
+      "height": 108
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "mediaType": "image/png",
+      "bytes": 2533,
+      "sha256": "cefaf3f5114afa28aeadf6e6618fa5e144b4a2183bdb2b786eeaa2fb0b916ac5",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "mediaType": "image/png",
+      "bytes": 2533,
+      "sha256": "cefaf3f5114afa28aeadf6e6618fa5e144b4a2183bdb2b786eeaa2fb0b916ac5",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "mediaType": "image/png",
+      "bytes": 28118,
+      "sha256": "319e0ef7d3ea2d3f9a686df1c9dcc5700f32f3e5a4115376333a04965bbf4c78",
+      "width": 216,
+      "height": 216
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "mediaType": "image/png",
+      "bytes": 7993,
+      "sha256": "05a8639ee29fe00eb77cd18e9d5526f488e96394644299606570c6ccad9bf66e",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "mediaType": "image/png",
+      "bytes": 7993,
+      "sha256": "05a8639ee29fe00eb77cd18e9d5526f488e96394644299606570c6ccad9bf66e",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "mediaType": "image/png",
+      "bytes": 50325,
+      "sha256": "c3aba5b9740198371d3201d8baeda5f600a0482f3e3a7e09647cce7da5dd0fdf",
+      "width": 324,
+      "height": 324
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "mediaType": "image/png",
+      "bytes": 15093,
+      "sha256": "e92fface56510ce0439f0997dff191ba307ec9a4d9de40ad9200ecbf20f57c64",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "mediaType": "image/png",
+      "bytes": 15093,
+      "sha256": "e92fface56510ce0439f0997dff191ba307ec9a4d9de40ad9200ecbf20f57c64",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "mediaType": "image/png",
+      "bytes": 77539,
+      "sha256": "239e231a8ee370c296dd472c53a101ee13afadef379ebaea32c15ed289e6d24e",
+      "width": 432,
+      "height": 432
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "mediaType": "image/png",
+      "bytes": 23742,
+      "sha256": "18e463a7d900fa3ff34eaf0732fc43787d3bac0b17e22dbdd4351d96230d4eb1",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "mediaType": "image/png",
+      "bytes": 23742,
+      "sha256": "18e463a7d900fa3ff34eaf0732fc43787d3bac0b17e22dbdd4351d96230d4eb1",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "android/app/src/main/res/values/colors.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 263,
+      "sha256": "6b37d32564a0f3afd12b0ea895eddd9242e2b80c92accf7b4948e4995384fe89"
+    },
+    {
+      "path": "android/app/src/main/res/values/ic_launcher_background.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 121,
+      "sha256": "c4a7f188d3428fe221f676766f72cfe154c8131c09d96945b25df582835e314b"
+    },
+    {
+      "path": "android/app/src/main/res/values/strings.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 308,
+      "sha256": "3f5625d6e10b61a6e74d67e3b57cff0fce8593b5227195d64f03e00d7cffd5c2"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 1204,
+      "sha256": "9d1622bd4b5d59a189c736fb669ef3ec1d981e5b29cd226cdb00c474f3ee2671"
+    },
+    {
+      "path": "android/app/src/main/res/xml/file_paths.xml",
+      "mediaType": "application/octet-stream",
+      "bytes": 213,
+      "sha256": "a46ed43ef65c90cb6778f4581decf3556e3f0055aad8f36d69dae16f9a0e99aa"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png",
+      "mediaType": "image/png",
+      "bytes": 112699,
+      "sha256": "22d1a6572d8f7c3c3228fd9e241642156963b4ec82d05d8b75831ff282849cb9",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "mediaType": "application/octet-stream",
+      "bytes": 218,
+      "sha256": "5c09bec6eede599b14fa9e4c44b03e7febebc930615a0cd70f02981c09dfe48a"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Contents.json",
+      "mediaType": "application/octet-stream",
+      "bytes": 62,
+      "sha256": "972ec1fd42325872438eb085ac29e94f51c10788ec18ec5549439950866c541d"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/Contents.json",
+      "mediaType": "application/octet-stream",
+      "bytes": 403,
+      "sha256": "041481917eb249533ac6dd63d283bc6190b2d0642a93deda11b2ed0f6f7b605a"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png",
+      "mediaType": "image/png",
+      "bytes": 351489,
+      "sha256": "6c56fb8ad29eee898cdb79084e1b734170124114d181361df0bf19ab625968d5",
+      "width": 2732,
+      "height": 2732
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png",
+      "mediaType": "image/png",
+      "bytes": 351489,
+      "sha256": "6c56fb8ad29eee898cdb79084e1b734170124114d181361df0bf19ab625968d5",
+      "width": 2732,
+      "height": 2732
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png",
+      "mediaType": "image/png",
+      "bytes": 351489,
+      "sha256": "6c56fb8ad29eee898cdb79084e1b734170124114d181361df0bf19ab625968d5",
+      "width": 2732,
+      "height": 2732
+    }
+  ],
+  "embedded": {
+    "scriptureCorpus": {
+      "name": "World English Bible",
+      "shortName": "WEB",
+      "buildEncoding": "inline-json",
+      "sourcePath": "src/data/web-classic.json",
+      "sourceBytes": 4104101,
+      "sourceSha256": "0b4aa7ef936290835fb6e2c55335436b29769c336edd32cfcf53283c4fb2f856",
+      "books": 66,
+      "chapters": 1189,
+      "verses": 31095,
+      "generatedJsonBytes": 4104100,
+      "generatedJsonSha256": "b240c13af435361093abe79432a36ed436fe52ed34c6dfb2be6ddebfe6946244"
+    },
+    "fonts": [
+      {
+        "family": "Barlow",
+        "style": "normal",
+        "weight": "400",
+        "mediaType": "font/woff2",
+        "bytes": 22196,
+        "sha256": "b0a8ad37ac45f5fb22ced461576db72e44e295107aad7a9c8a7a4bad728fd03b"
+      },
+      {
+        "family": "Barlow",
+        "style": "normal",
+        "weight": "600",
+        "mediaType": "font/woff2",
+        "bytes": 22772,
+        "sha256": "4b52ddd4836b592df0e4832b8286956883cdc651b015126bdd18f184b7f90cc3"
+      },
+      {
+        "family": "Barlow",
+        "style": "normal",
+        "weight": "700",
+        "mediaType": "font/woff2",
+        "bytes": 22788,
+        "sha256": "2d797dd8b35dcb3413e1af9d7052b3f4f8c341a147cdcb01f4f06af80db53289"
+      },
+      {
+        "family": "Fraunces",
+        "style": "italic",
+        "weight": "400",
+        "mediaType": "font/woff2",
+        "bytes": 22852,
+        "sha256": "475b154af19c6b4ef371db22078b5044a078ce2467e11ef22a7b87f77837caf3"
+      },
+      {
+        "family": "Fraunces",
+        "style": "normal",
+        "weight": "400",
+        "mediaType": "font/woff2",
+        "bytes": 36620,
+        "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+      },
+      {
+        "family": "Fraunces",
+        "style": "normal",
+        "weight": "600",
+        "mediaType": "font/woff2",
+        "bytes": 36620,
+        "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+      },
+      {
+        "family": "Fraunces",
+        "style": "normal",
+        "weight": "700",
+        "mediaType": "font/woff2",
+        "bytes": 36620,
+        "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+      }
+    ]
+  }
+}

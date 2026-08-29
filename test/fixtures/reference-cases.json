@@ -1,0 +1,21 @@
+{
+  "valid": [
+    { "reference": "Genesis 1", "verses": 31 },
+    { "reference": "John 3:16", "verses": 1 },
+    { "reference": "Romans 8:28-39", "verses": 12 },
+    { "reference": "Psalms 119:105", "verses": 1 },
+    { "reference": "2 John 1:4-6", "verses": 3 },
+    { "reference": "Revelation 22:21", "verses": 1 }
+  ],
+  "invalid": [
+    "John 3:0",
+    "John 3:37",
+    "John 0:1",
+    "John 22:1",
+    "John 3:17-16",
+    "Genesis 1:1-999",
+    "Jn 3:16",
+    "John 3:16–17",
+    "Not A Book 1:1"
+  ]
+}
