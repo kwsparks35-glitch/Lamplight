@@ -50,8 +50,8 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 829,
-      "sha256": "8752baf66f0085cff9bfed338d5088520404e5e1899409d9b2caf081b8978007"
+      "bytes": 937,
+      "sha256": "faf9d62f22645d73896c564c5405e12473e18d8c83d8f76cfde19c8fd49c1e7c"
     },
     {
       "path": ".github/workflows/dependency-review.yml",
