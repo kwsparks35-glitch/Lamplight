@@ -36,14 +36,14 @@
     "validate:platform": "node --check electron/main.js && node -e \"const fs=require('node:fs');['package.json','capacitor.config.json','electron/package.json','www/manifest.webmanifest'].forEach(f=>JSON.parse(fs.readFileSync(f,'utf8')));console.log('Platform JavaScript and JSON are valid.')\""
   },
   "dependencies": {
-    "@capacitor/android": "8.4.1",
+    "@capacitor/android": "8.5.0",
     "@capacitor/app": "8.1.1",
-    "@capacitor/core": "8.4.1",
-    "@capacitor/ios": "8.4.1",
+    "@capacitor/core": "8.5.0",
+    "@capacitor/ios": "8.5.0",
     "@capacitor/preferences": "8.0.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "8.4.1"
+    "@capacitor/cli": "8.5.0"
   },
   "repository": {
     "type": "git",
